@@ -1,0 +1,11 @@
+configuration:
+  server:
+    port: 5000
+  kafka:
+    clientId: my-client
+    brokers:
+      - localhost:9092
+    consumer:
+      groupId: my-group
+
+    
